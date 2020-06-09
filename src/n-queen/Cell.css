@@ -1,0 +1,23 @@
+.cell {
+    background: #cfd8dc;
+    border: 1px solid #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 49px;
+    text-align: center;
+    width: 49px;
+  }
+
+.queen{
+  background-color: #b2ff59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notSafe{
+  background-color:#f44336;
+}
+.hideQ{
+  display: none;
+}

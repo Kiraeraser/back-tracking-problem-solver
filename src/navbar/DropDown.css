@@ -1,0 +1,21 @@
+.OutterBox{
+    width: 350px;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+}
+
+.option{
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #bbdefb;
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.option:hover{
+    background-color: #82b1ff;
+}

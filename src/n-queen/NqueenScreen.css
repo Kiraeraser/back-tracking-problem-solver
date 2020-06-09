@@ -1,0 +1,32 @@
+
+.display_board{
+    height: 70vh;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+}
+.nqtable{
+    border: 15px solid #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+
+}
+.input_field{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+}
+
+.inp{
+    flex: 1;
+    height: 65px;
+    border: 2px solid black;
+    font-size: 35px;
+    text-align: center;
+}
+.btn{
+    border: 2px solid black;
+}

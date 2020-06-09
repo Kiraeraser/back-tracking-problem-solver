@@ -1,0 +1,64 @@
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #bbdefb;
+    
+}
+.labelClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown{
+    background-color: inherit;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.title{
+    background-color: #82b1ff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+.dropdown:hover{
+    background-color: #82b1ff;
+    border-radius: 5px 5px 5px 5px;
+}
+span{
+    padding: 5px 20px 5px 20px;
+    background-color: #82b1ff;
+    border: #82b1ff ;
+}
+
+.logoOuterDiv{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 25px;
+}
+
+.logoInnerDiv{
+ 
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: #82b1ff;
+}
+
+.logoInnerDiv:hover{
+
+    background-color: #64b5f6;
+}
+.instruction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}

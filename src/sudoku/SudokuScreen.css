@@ -1,0 +1,35 @@
+.absPosition{
+    position:absolute;
+    z-index: 1;
+}
+
+.boardLayout{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+table{
+    border: 5px solid black;
+    border-spacing: 0px; 
+}
+.buttonAlign{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    flex:1;
+    padding: 15px;
+    margin: 5px 30px 5px 30px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #bbdefb;
+}
+.btn{
+    border: 2px solid black;
+}
+span{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+

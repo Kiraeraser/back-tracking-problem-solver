@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.modal{
+    position: absolute;
+    height: auto;
+    width:500px;
+    z-index: 1000;
+    background-color:#fff;
+    border: 1px solid #263238;
+    color: #263238;
+    font-family: 'Architects Daughter', cursive;
+    text-align: start;
+    box-shadow: 10px 10px 8px #888888;
+    margin: 15px;
+}
+h1{
+    text-align: center;
+}
+li{
+    padding-bottom: 15px;
+}
+.liDivOuter{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.outerDiv{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.okButton{
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+    background-color: #82b1ff;
+}
