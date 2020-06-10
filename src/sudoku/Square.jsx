@@ -66,6 +66,7 @@ export default class Square extends Component {
         return (
             <input className={`square ${bgClass}`} 
             key ={key}
+            id = {key}
             onChange={this.handleOnChange}
             size="1"
             style = {{

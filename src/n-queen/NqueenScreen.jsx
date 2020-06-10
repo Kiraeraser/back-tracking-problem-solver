@@ -23,11 +23,12 @@ export default class NqueenScreen extends Component {
     }
 
     generatePat = (execution) =>{
-        for(var ex of execution){
+        const exLen = execution.length;
+        for(var i =0;i<exLen; i++){
 
+            var ex = execution[i];
 
-
-            (function(ex){
+            (function(ex,i){
                 setTimeout(function(){
                     var row = ex[0];
                     var col = ex[1];
@@ -39,16 +40,21 @@ export default class NqueenScreen extends Component {
                         //console.log("fill");
                         cell.classList.toggle('notSafe');
                         //cell.children[0].classList.toggle('hideQ');
-                        cell.children[0].display= "none";
-                        cell.classList.toggle('notSafe');
+                        (function(cell){
+                            setTimeout(function(){
+                                cell.children[0].display= "none";
+                                cell.classList.toggle('notSafe');
+                            },500);
+                        })(cell);
+                        
                     }
                     cell.classList.toggle('queen');
                     cell.children[0].display= "block";
                     cell.children[0].classList.toggle('hideQ');
 
                     }
-                , 500);
-            })(ex);            
+                , 500*i);
+            })(ex,i);            
         }
         return;
     }
