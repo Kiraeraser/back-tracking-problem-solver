@@ -59,6 +59,8 @@ export default class SudokuScreen extends Component {
             boardState,
             solvedBoard,
             displaySolved: false,
+            selectedRow: -1,
+            selectedCol: -1,
         });
     }
 
